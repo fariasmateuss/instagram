@@ -4,9 +4,10 @@ import { Link } from 'react-router-dom';
 import './Header.css';
 
 import logo from '../assets/logo.svg';
-import camera from '../assets/camera.svg';
 import like from '../assets/like.svg';
 import send from '../assets/send.svg';
+import profile from '../assets/profile.svg';
+import explore from '../assets/explore.svg';
 
 export default function Header() {
   return (
@@ -15,15 +16,21 @@ export default function Header() {
         <Link to="/">
           <img src={logo} alt="IntaRocket" />            
         </Link>
+        <div className="header-content-input">
+          <input type="text" placeholder="Search" />
+        </div>
         <div className="header-content-icon">
+          <Link>
+            <img src={send} />
+          </Link>
+          <Link>
+            <img src={explore} />
+          </Link>
+          <Link>
+            <img src={like} />
+          </Link>
           <Link to="/new">
-            <img src={camera} alt="Enviar publicação" />
-          </Link>
-          <Link>
-            <img src={like} alt="Enviar publicação" />
-          </Link>
-          <Link>
-            <img src={send} alt="Enviar publicação" />
+            <img src={profile} />
           </Link>
         </div>
       </div>

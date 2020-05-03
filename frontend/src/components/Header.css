@@ -15,6 +15,23 @@
   justify-content: space-between;
 }
 
+.header-content-input input {
+  height: 25px;
+  width: 200px;
+  text-align: center;
+  border-radius: 3px;
+  font-weight: 200;
+  color: #DBDBDA;
+  border: solid 1px #dbdbdb;
+  background-color: #fafafa;
+}
+
 .header-content-icon img {
-  margin: 5px;
+  margin: 8px;
+}
+
+@media (max-width: 600px) {
+  .header-content-input input {
+    display: none;
+  }
 }
