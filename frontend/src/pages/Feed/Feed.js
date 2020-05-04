@@ -43,7 +43,7 @@ class Feed extends Component {
   }
 
   render() {
-    return (      
+    return (
       <section className="post-list">
         { this.state.feed.map(post => (
           <article key={post._id}>

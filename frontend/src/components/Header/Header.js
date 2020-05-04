@@ -3,13 +3,13 @@ import { Link } from 'react-router-dom';
 
 import './Header.css';
 
-import logo from '../assets/logo.svg';
-import like from '../assets/like.svg';
-import send from '../assets/send.svg';
-import profile from '../assets/profile.svg';
-import explore from '../assets/explore.svg';
+import logo from '../../assets/logo.svg';
+import like from '../../assets/like.svg';
+import send from '../../assets/send.svg';
+import profile from '../../assets/profile.svg';
+import explore from '../../assets/explore.svg';
 
-export default function Header() {
+function Header() {
   return (
     <header className="main-header">
       <div className="header-content">
@@ -20,9 +20,6 @@ export default function Header() {
           <input type="text" placeholder="Search" />
         </div>
         <div className="header-content-icon">
-          <Link>
-            <img src={send} />
-          </Link>
           <Link>
             <img src={explore} />
           </Link>
@@ -37,3 +34,5 @@ export default function Header() {
     </header>
   );
 }
+
+export default Header;

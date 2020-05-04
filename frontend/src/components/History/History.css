@@ -1,0 +1,25 @@
+.history-list {
+  width: 100%;
+  max-width: 580px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.history-list article {
+  background: #fff;
+  border: 1px solid #ddd;
+}
+
+.history {
+  padding: 10px;
+  display: flex;
+  overflow-x: hidden;
+}
+
+.history img {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  border: 2px solid #e6683c;
+  margin-right: 5px;
+}
