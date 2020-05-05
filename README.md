@@ -40,7 +40,7 @@
 ### Back-End
 - Run `yarn` in the `backend` folder;
 - Run `yarn dev` to up the server;
-- Open Insomnia or Postman and import the Insomnia.json workspace file at server folder.
+- Open Insomnia or Postman and import the Insomnia.json workspace file at backend folder.
 
 ### Front-End 
 - Run `yarn` in the `frontend` folder;
