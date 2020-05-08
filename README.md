@@ -46,13 +46,9 @@
 - Run `yarn` in the `frontend` folder;
 - Run `yarn start` to up the project;
   
-## How to contribute
-- Fork this repository;
-- Create a branch with your feature: `git checkout -b my-feature`;
-- Commit your changes: `git commit -m 'feat: My feature'`;
-- Push to your branch: `git push origin my-feature`;
+## Contribution
 
-After the merge of your pull request is done, you can delete your branch.
+See the [contribution guide](CONTRIBUTING.md) for more details on how to contribute to this project.
 
 # License
 [MIT License](/LICENSE)
