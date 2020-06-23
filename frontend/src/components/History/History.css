@@ -13,7 +13,12 @@
 .history {
   padding: 10px;
   display: flex;
-  overflow-x: hidden;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.history::-webkit-scrollbar {
+  display: none;
 }
 
 .history img {
