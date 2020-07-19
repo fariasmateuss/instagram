@@ -15,12 +15,12 @@
 </p>
  
 <p align="center">
-  Application built with React Js and Restful API in NodeJs.
+  Application built with ReactJs and Restful API in NodeJs.
 </p>
 
 <img src=".github/thumbnail.png" />
 
-## Features 
+## Features
 
 - [x] Uplooad of photos
 - [x] Like in photos
@@ -29,26 +29,50 @@
 
 ## Tech
 
-- Node.js
-- React
-- MongoDB
-- Socket.io
-
+- [NodeJs](https://nodejs.org/en/) - Build the server.
+- [ReactJs](https://reactjs.org) - A JavaScript library for building user interfaces.
+- [MongoDB](https://www.mongodb.com/) - NoSQL Cluster
 
 ## Development setup
 
-### Back-End
-- Run `yarn` in the `backend` folder;
-- Run `yarn dev` to up the server;
-- Open Insomnia or Postman and import the Insomnia.json workspace file at backend folder.
+### Prerequisites
 
-### Front-End 
-- Run `yarn` in the `frontend` folder;
-- Run `yarn start` to up the project;
-  
+To run this project in the development mode, you'll need to have a basic environment with NodeJs installed.
+
+#### Back-End
+
+Run in the backend folder;
+
+```
+yarn
+```
+
+To start the server;
+
+```
+yarn dev
+```
+
+Open Insomnia or Postman and import the Insomnia.json workspace file at backend folder.
+
+#### Front-End
+
+Run in the frontend folder;
+
+```
+yarn
+```
+
+To start the project;
+
+```
+yarn start
+```
+
 ## Contribution
 
-See the [contribution guide](CONTRIBUTING.md) for more details on how to contribute to this project.
+See the [contribution guide](./github/CONTRIBUTING.md) for more details on how to contribute to this project.
 
 # License
+
 [MIT License](/LICENSE)
