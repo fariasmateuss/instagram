@@ -3,18 +3,6 @@
 </p>
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/fariasmateuss/instagram">
-
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/fariasmateuss/instagram">
-  
-  <a href="https://github.com/fariasmateuss/fariasmateuss/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/fariasmateuss/instagram">
-  </a>
-
-  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
-</p>
- 
-<p align="center">
   Application built with ReactJs and Restful API in NodeJs.
 </p>
 
@@ -37,7 +25,7 @@
 
 ### Prerequisites
 
-To run this project in the development mode, you'll need to have a basic environment with NodeJs installed.
+To run this project in the development mode, you'll need to have a basic environment with NodeJs and Yarn installed.
 
 #### Back-End
 
