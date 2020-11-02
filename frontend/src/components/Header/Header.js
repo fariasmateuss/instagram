@@ -5,7 +5,7 @@ import './Header.css';
 
 import logo from '../../assets/logo.svg';
 import like from '../../assets/like.svg';
-import send from '../../assets/send.svg';
+import direct from '../../assets/send.svg';
 import profile from '../../assets/profile.svg';
 import explore from '../../assets/explore.svg';
 
@@ -14,20 +14,42 @@ function Header() {
     <header className="main-header">
       <div className="header-content">
         <Link to="/">
-          <img src={logo} alt="IntaRocket" />            
+          <img 
+            src={logo} 
+            alt="Instagram logo"
+            title="Instagram"
+          />
         </Link>
+
         <div className="header-content-input">
           <input type="text" placeholder="Search" />
         </div>
+
         <div className="header-content-icon">
-          <Link>
-            <img src={explore} />
-          </Link>
-          <Link>
-            <img src={like} />
-          </Link>
+          <img 
+            src={direct} 
+            alt="Direct" 
+            title="Direct"
+          />
+        
+          <img 
+            src={explore} 
+            alt="Explore" 
+            title="Explore"
+          />
+          
+          <img 
+            src={like} 
+            alt="Likes" 
+            title="Like"
+          />
+          
           <Link to="/new">
-            <img src={profile} />
+            <img 
+              src={profile} 
+              alt="Profile"
+              title="Profile"
+            />
           </Link>
         </div>
       </div>

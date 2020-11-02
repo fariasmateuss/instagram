@@ -7,8 +7,8 @@ import New from './pages/New/New';
 function Routes() {
   return (
     <Switch>
-      <Route path='/' exact component={Feed} />
-      <Route path='/new' component={New} />
+      <Route path="/" exact component={Feed} />
+      <Route path="/new" component={New} />
     </Switch>
   );
 }

@@ -8,5 +8,5 @@
 body {
   background: #fafafa;
   font: 14px Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased !important;
+  -webkit-font-smoothing: antialiased;
 }

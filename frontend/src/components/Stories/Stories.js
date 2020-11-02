@@ -1,19 +1,19 @@
 import React, { Component } from 'react';
-import api from '../../services/api';
 import io from 'socket.io-client';
+import api from '../../services/api';
 
-import './History.css';
+import './Stories.css';
 
-class History extends Component {
+class Stories extends Component {
   state = {
     feed: [],
-  }
+  };
 
   async componentDidMount() {
     this.registerToSocket();
 
     const response = await api.get('posts');
-    
+
     this.setState({ feed: response.data });
   }
 
@@ -23,21 +23,26 @@ class History extends Component {
     socket.on('post', newPost => {
       this.setState({ feed: [newPost, ...this.state.feed] });
     });
-  }
+  };
 
   render() {
     return (
-      <section className="history-list">
-        <article>
-          <div className="history">
-          { this.state.feed.map(post => (
-            <img key={post._id} src={`http://localhost:3333/files/${post.image}`} />
+      <section className="stories">
+        <figure>
+          <picture className="post">
+            {this.state.feed.map(post => (
+              <img
+                key={post._id}
+                src={`http://localhost:3333/files/${post.image}`}
+                alt={post.author}
+                title={post.author}
+              />
             ))}
-          </div>
-        </article>
+          </picture>
+        </figure>
       </section>
     );
   }
 }
 
-export default History;
+export default Stories;
