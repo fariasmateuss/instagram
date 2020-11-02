@@ -31,4 +31,5 @@
   object-fit: cover;
   -webkit-clip-path: circle(50%);
   clip-path: circle(50%);
+  cursor: pointer;
 }

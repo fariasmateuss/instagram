@@ -28,6 +28,7 @@
 
 .header-content-icon img {
   margin: 8px;
+  cursor: pointer;
 }
 
 @media (max-width: 600px) {
