@@ -6,7 +6,7 @@
   Application built with ReactJs and Restful API in NodeJs.
 </p>
 
-<img src=".github/thumbnail.png" />
+<img src=".github/thumbnail.png" align="right" />
 
 ## Features
 
