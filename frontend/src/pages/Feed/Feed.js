@@ -6,7 +6,7 @@ import './Feed.css';
 
 import Stories from '../../components/Stories/Stories';
 
-import avatar from '../../assets/img/avatar.png';
+import avatar from '../../assets/img/static.jpg';
 import more from '../../assets/more.svg';
 import like from '../../assets/like.svg';
 import comment from '../../assets/comment.svg';
