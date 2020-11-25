@@ -57,10 +57,6 @@ To start the project;
 yarn start
 ```
 
-## Contribution
-
-See the [contribution guide](./github/CONTRIBUTING.md) for more details on how to contribute to this project.
-
 # License
 
 [MIT License](/LICENSE)
